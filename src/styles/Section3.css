@@ -1,0 +1,58 @@
+#section3 {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#section3-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.panel {
+    height: 100%;
+    width: 100%;
+    flex-shrink: 0;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.panel h1 {
+    left: 10%;
+    font-family: 'Grotesk', sans-serif;
+    font-size: min(0.99vw, 160.675px);
+}
+
+.panel p {
+    font-family: "Apercu Regular", sans-serif;
+    font-size: min(0.99vw, 160.675px);
+}
+
+#panel1 {
+    background-image: url("https://i.pinimg.com/736x/b5/ad/8d/b5ad8dc24c55da46431e7bbe846c9e7f.jpg");
+    mix-blend-mode: multiply;
+}
+
+#panel2 {
+    background-image: url("https://i.pinimg.com/736x/59/99/54/599954593c7e70781cc45e58b1dd1d5c.jpg");
+    mix-blend-mode: multiply;
+}
+
+#panel3 {
+    background-image: url("https://i.pinimg.com/736x/43/3f/04/433f047af4a00a56c360e59eb2198359.jpg");
+    mix-blend-mode: multiply;
+}
+
+#panel4 {
+    background-image: url("https://i.pinimg.com/736x/f7/ee/bd/f7eebd36770fb620433ed0fcf4c72b7a.jpg");
+    mix-blend-mode: multiply;
+}
+
+#panel5 {
+    background-image: url("https://media.techtribune.net/uploads/2023/03/Secrets-of-the-Silent-Witch-cover-scaled-1021x580.jpeg");
+    mix-blend-mode: multiply;
+}

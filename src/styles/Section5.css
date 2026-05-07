@@ -1,0 +1,81 @@
+#section5 {
+    height: 100vh;
+    width: 100%;
+}
+
+#section5-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: min(0.99vw, 160.675px);
+}
+
+#section5-info {
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.section5-content {
+    border-radius: 1rem;
+    position: absolute;
+    padding: 1rem;
+    height: auto;
+    width: 30vw;
+    background-color: #ffffff;
+    color: #13150d;
+}
+
+#section5-content1 {
+    z-index: 1;
+}
+
+#section5-content2 {
+    z-index: 2;
+}
+
+#section5-content3 {
+    z-index: 3;
+}
+
+/* #section5-content1 {
+    background: radial-gradient(
+        ellipse at top,
+        #fbbf24 0%,
+        #13150d 45%,
+        #13150d 100%
+    );
+}
+
+#section5-content2 {
+    background-color: #13150d;
+}
+
+#section5-content3 {
+    background: radial-gradient(
+        ellipse at bottom,
+        #fbbf24 0%,
+        #13150d 45%,
+        #13150d 100%
+    );
+} */
+
+#section5-container h1 {
+    text-align: center;
+    font-family: 'Grotesk', sans-serif;
+}
+
+#section5-container h2 {
+    font-family: 'ISOCTEUR V1', sans-serif;
+}
+
+#section5-container p {
+    font-family: "Apercu Regular", sans-serif;
+}

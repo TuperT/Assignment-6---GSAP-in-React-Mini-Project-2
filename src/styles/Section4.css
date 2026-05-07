@@ -1,0 +1,65 @@
+#section4 {
+    height: 100vh;
+    width: 100%;
+}
+
+#section4-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+#section4-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.section4-content {
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: min(0.99vw, 260.675px);
+}
+
+#section4-container h1 {
+    font-family: 'Grotesk', sans-serif;
+}
+
+#section4-container {
+    font-family: "Druk Wide Bold", sans-serif;
+}
+
+#section4-container p {
+    font-family: 'ISOCTEUR V1', sans-serif;
+}
+
+#section4-container button {
+    width: 40%;
+    height: 20%;
+    border-radius: 0.75rem;
+    border: 1px #ffffff;
+    font-family: 'Grotesk', sans-serif;
+    transition: 0.5s ease-in-out;
+    font-size: min(0.99vw, 160.675px);
+}
+
+#section4-container button:hover {
+    cursor: pointer;
+    background: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
