@@ -9,7 +9,7 @@ const Section5 = () => {
     useEffect(() => {
         let tl = gsap.timeline({ 
             scrollTrigger: {
-                trigger: "#section5-info",
+                trigger: "#section5",
                 start: "top top",
                 end: "+=5300",
                 pin: true,
@@ -27,6 +27,11 @@ const Section5 = () => {
         tl.to("#section5-content1", { opacity: 1 })
         tl.to("#section5-content3", { opacity: 1 })
         tl.to(".section5-content", { scale: 1.2 })
+        ScrollTrigger.refresh()
+
+        return () => {
+            tl.kill()
+        }
     }, [])
 
     return (
