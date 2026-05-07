@@ -63,3 +63,12 @@
     color: #ffffff;
     border: 1px solid #ffffff;
 }
+
+@media (max-width: 768px) {
+    #section4-stats {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 1rem;
+    }
+}
